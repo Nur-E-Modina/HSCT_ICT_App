@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Quiz">
+   <ImageView
+       android:layout_marginTop="5dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:src="@drawable/boi"/>
+   <TextView
+       android:layout_marginTop="10dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="25sp"
+       android:textColor="@color/colorPrimary"
+       android:text="তথ্য ও যোগযোগ প্রযুক্তি \n(একাদশ-দ্বাদশ শ্রেণি)\n"/>
+
+   <TextView
+android:id="@+id/tbook"
+       android:layout_marginLeft="20dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="15sp"
+       android:padding="20dp"
+       android:textColor="@color/colorAccent"
+       android:textStyle="italic"
+       android:text="@string/book"/>
+
+
+
+
+</LinearLayout>

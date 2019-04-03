@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:orientation="vertical"
+
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:background="#59646F">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/frame1"
+        android:layout_gravity="fill"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HSC_ICT"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:textSize="50sp"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="italic"/>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_gravity="bottom|end"
+       android:gravity="end"
+       android:padding="16dp">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="তথ্য ও যোগাযোগ প্রযুক্তি "
+           android:textStyle="bold"
+           android:textColor="@android:color/holo_green_light"
+           android:layout_marginTop="60dp"
+           android:textSize="25sp"/>
+
+   </LinearLayout>
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:padding="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="প্রশ্নের ধরন"
+            android:shadowColor="@color/colorPrimary"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/quiz1"/>
+        <Button
+            android:id="@+id/button2"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="জ্ঞানমূলক প্রশ্ন ও উত্তর "
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/mcq1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:padding="20dp"
+            android:text="বই(পিডিএফ)"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/tuto"/>
+
+       <Button
+           android:id="@+id/button4"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="30dp"
+           android:layout_marginLeft="30dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginBottom="10dp"
+           android:padding="20dp"
+           android:text="শেয়ার"
+           android:textAllCaps="false"
+           android:background="#ffffff"
+           android:textSize="18sp"
+           android:drawableLeft="@drawable/share"
+           />
+
+    </LinearLayout>
+<Button
+    android:id="@+id/button5"
+    android:layout_marginTop="15dp"
+ android:layout_marginBottom="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAllCaps="false"
+    android:text="About Us"
+    android:layout_gravity="center"
+    android:padding="5dp"
+    android:textSize="20sp"
+    android:background="#ffffff"
+    android:drawableTop="@drawable/lg1"/>
+
+
+</LinearLayout>
+
+

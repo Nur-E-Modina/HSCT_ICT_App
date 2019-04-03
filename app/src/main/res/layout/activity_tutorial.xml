@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Tutorial">
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:text="@string/marks"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/book1"
+        android:padding="20dp"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/question_pattern" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="@string/knowledge"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/ict"
+        android:layout_marginLeft="15dp"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginRight="10dp"/>
+
+
+
+</LinearLayout>

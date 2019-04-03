@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".knowledge">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/mcqnw12"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="fill"/>
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/ctn"
+        android:padding="10dp"
+        android:text="বিশ্ব ও বাংলাদেশ প্রেক্ষিত"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="কমিউনিকেশন সিস্টেম ও নেটওয়ার্কিং"
+        android:drawableLeft="@drawable/ctn"
+        android:background="#ffffff"
+        android:layout_marginLeft="15dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        />
+    <Button
+        android:id="@+id/but3"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="সংখ্যা পদ্ধতি ও ডিজিটাল সিস্টেম  "
+        android:drawableLeft="@drawable/logic"
+        android:layout_marginLeft="15dp"
+        android:background="#ffffff"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        />
+    <Button
+        android:id="@+id/but4"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ওয়েব ডিজাইন পরিচিতি এবং HTML"
+        android:drawableLeft="@drawable/html"
+        android:background="#ffffff"
+        android:layout_marginLeft="15dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        />
+    <Button
+        android:id="@+id/but5"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="প্রোগ্রামিং ভাষা"
+        android:drawableLeft="@drawable/code"
+        android:background="#ffffff"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        />
+    <Button
+        android:id="@+id/but6"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ডেটাবেজ ম্যানেজমেন্ট সিস্টেম"
+        android:drawableLeft="@drawable/data"
+        android:background="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"  />
+
+
+
+
+
+</LinearLayout>
